@@ -10,14 +10,6 @@ An intelligent project management system with OAuth-based integrations for Googl
 - Google Drive for document management
 - Automated weekly progress reports
 
-## Quick Start
-
-1. Clone the repository
-2. Run the setup script: `./setup.sh`
-3. Configure OAuth: `./setup-oauth.sh`
-4. Start the application: `docker-compose up -d`
-5. Access at http://localhost:3000
-
 ## Documentation
 
 See `/docs/OAUTH_SETUP.md` for OAuth configuration guide.
