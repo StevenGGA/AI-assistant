@@ -1,9 +1,7 @@
 """
-Dependencies Module
-TODO: Copy actual implementation from artifacts
+Database dependencies for FastAPI
 """
+from app.database import get_db
 
-# Placeholder implementation
-def placeholder():
-    """This is a placeholder file - replace with actual implementation"""
-    pass
+# Re-export for convenience
+__all__ = ["get_db"]

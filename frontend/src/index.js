@@ -1,8 +1,11 @@
-// index
-// TODO: Copy actual implementation from artifacts
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
 
-const placeholder = () => {
-  console.log('Placeholder for index');
-};
-
-export default placeholder;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
